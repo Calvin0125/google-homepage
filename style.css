@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,10 +10,35 @@ ul {
 }
 li {
     display: inline;
+    padding: 5px 10px;
 }
 .left {
-    align-items: left;
+    float: left;
 }
 .right {
-    align-items: right;
+    float: right;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%
+}
+#google {
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+#header {
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%
+}
+#searchbar {
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 25px;
+    width: 40%;
+    height: 25px;
 }
