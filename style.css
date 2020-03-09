@@ -41,4 +41,19 @@ li {
     top: 25px;
     width: 40%;
     height: 25px;
+    padding-left: 18px;
+    padding-right: 15px;
+    border-radius: 25px;
+    background-image: url("magnifying-glass.jpg"), url("google-microphone.png");
+    background-position: left, right;
+    background-size: 15px, 15px;
+    background-repeat: no-repeat, no-repeat;
+}
+.button {
+    display: inline;
+    position: relative;
+    top: 50px;
+    left: 215px;
+    -webkit-appearance: none;
+
 }
